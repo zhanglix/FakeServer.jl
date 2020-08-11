@@ -1,0 +1,16 @@
+name = "FakeServer"
+uuid = "b7f0d2e9-5ffe-4733-bef0-0356d9625703"
+authors = ["zhangli <zhangli@joypace.com>"]
+version = "0.1.0"
+
+[deps]
+HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
+Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
+Sockets = "6462fe0b-24de-5631-8697-dd941f90decc"
+
+[extras]
+OpenTrick = "102dff8d-99cb-5cc2-9bf9-d9fe3a2e5e7a"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test", "OpenTrick"]
