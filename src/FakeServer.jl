@@ -51,7 +51,7 @@ mutable struct Connection <: AbstractConnection
     channel::Channel{Any}
 end
 
-Connection(io::IO)=Connection(io,Any[],0, Channel())
+Connection(io::IO)=Connection(io,Any[],0, Channel(32))
 waitnwritten(conn::Connection, n::Integer; timeout::Real=3.0) = timedwait(timeout) do
     conn.nwritten >= n
 end === :ok
