@@ -13,9 +13,9 @@ uuid = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 
 [[HTTP]]
 deps = ["Base64", "Dates", "IniFile", "MbedTLS", "Sockets"]
-git-tree-sha1 = "32e883369c938714fc560bfd0a14bdf9b266987e"
+git-tree-sha1 = "f73eee1cc6c38939ce3fca77434b6da14050d336"
 repo-rev = "master"
-repo-url = "https://github.com/zhanglix/HTTP.jl"
+repo-url = "https://github.com/JuliaWeb/HTTP.jl"
 uuid = "cd3eb016-35fb-5094-929b-558a96fad6f3"
 version = "0.8.18"
 
